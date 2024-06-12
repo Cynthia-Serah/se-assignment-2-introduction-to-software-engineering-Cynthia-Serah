@@ -1,0 +1,197 @@
+What is software engineering, and how does it differ from traditional programming? Software Development Life Cycle (SDLC)
+software engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software. With computing as its foundation, software engineering seeks to develop and use systematic models and reliable techniques to produce high-quality software.
+Software Engineering versus programming
+The main difference between software engineering and programming is that software engineering is a process-oriented discipline while programming is a task-oriented activity.
+Software engineering is concerned with developing software products that are reliable, efficient, and easy to maintain. It applies scientific and mathematical principles to the design, analysis, and implementation of software systems. Programming, on the other hand, is mainly concerned with writing code to solve specific problems.
+Software engineering is a team activity. Programming is primarily a solitary activity.
+A software engineer is involved in the entire process. Programming is an aspect of software development.
+A software engineer works with other engineers on components to build a system. A programmer writes a complete program.
+
+The Software Engineering Life Cycle (SDLC) is a series of stages in software engineering to develop proposed software applications.
+Software engineering generally starts with the first step as a user request for a specific task or information. It should be a need within the organization. The software development team separates user requirements, system requirements and functional requirements. We collect the requirements by interviewing users and recording them in a database. Moreover, we can study the existing system.
+After collecting the requirements, the next step immediately follows. The team analyses whether it is possible to make software that can meet the user's requirements. The developer then makes a step-by-step plan. System analysis also includes insight into the possible limitations of the software. 
+After the requirements and the analysis, a software design is made. The implementation of software design starts with writing program code in an appropriate programming language.
+
+Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase. Agile vs. Waterfall Models.
+The are seven phases of SDLC including planning, analysis, design, development, testing, implementation, and maintenance.
+
+Agile methodology
+Agile methodology is a project management approach that prioritizes cross-functional collaboration and continuous improvement. It divides projects into smaller phases and guides teams through cycles of planning, execution, and evaluation.
+1. Requirement Gathering
+In this stage, the project team identifies and documents the needs and expectations of various stakeholders, including clients, users, and subject matter experts.
+It involves defining the project’s scope, objectives, and requirements.
+Establishing a budget and schedule.
+Creating a project plan and allocating resources.
+2. Design
+Developing a high-level system architecture.
+Creating detailed specifications, which include data structures, algorithms, and interfaces.
+Planning for the software’s user interface.
+3. Development (Coding)
+Writing the actual code for the software. Conducting unit testing to verify the functionality of individual components.
+4. Testing
+This phase involves several types of testing:
+Integration Testing: Ensuring that different components work together.
+System Testing: Testing the entire system as a whole.
+User Acceptance Testing: Confirming that the software meets user requirements.
+Performance Testing: Assessing the system’s speed, scalability, and stability.
+5. Deployment
+Deploying the software to a production environment.
+Put the software into the real world where people can use it.
+Make sure it works smoothly in the real world.
+Providing training and support for end-users.
+6. Review (Maintenance)
+Addressing and resolving any issues that may arise after deployment.
+Releasing updates and patches to enhance the software and address problems.
+
+Waterfall Model
+The waterfall model is a software development model used in the context of large, complex projects, typically in the field of information technology. It is characterized by a structured, sequential approach to project management and software development.
+
+The Waterfall Model has six phases which are:
+1. Requirements: The first phase involves gathering requirements from stakeholders and analyzing them to understand the scope and objectives of the project.
+2. Design: Once the requirements are understood, the design phase begins. This involves creating a detailed design document that outlines the software architecture, user interface, and system components.
+3. Development: The Development phase include implementation involves coding the software based on the design specifications. This phase also includes unit testing to ensure that each component of the software is working as expected.
+4. Testing: In the testing phase, the software is tested as a whole to ensure that it meets the requirements and is free from defects.
+5. Deployment: Once the software has been tested and approved, it is deployed to the production environment.
+6. Maintenance: The final phase of the Waterfall Model is maintenance, which involves fixing any issues that arise after the software has been deployed and ensuring that it continues to meet the requirements over time. 
+
+
+Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred? Requirements Engineering:
+
+Agile Methodology vs Waterfall Methodology
+Agile Project Management
+Waterfall Project Management
+
+Client input is required throughout the product development.	Client input is required only after completing each phase.
+Changes can be made at any stage.	Changes cannot be made after the completion of a phase.
+Coordination among project teams is required to ensure correctness.	Coordination is not needed as one team starts the work after the finish of another team.
+It is really useful in large and complex projects.	It is mainly used for small project development.
+
+The testing part can be started before the development of the entire product.	Testing can only be performed when the complete product is ready.
+A Small team is sufficient for Agile project management.	It requires a large team.
+The cost of development is less.	The cost of development is high.
+It completes the project in comparatively less time.	It takes more time compared to Agile.
+The Agile Method is known for its flexibility.	The waterfall Method is a structured software development methodology so it is quite rigid.
+After each sprint/cycle test plan is discussed.	Hardly any test plan is discussed during a cycle.
+
+What is requirements engineering? Describe the process and its importance in the software development lifecycle. Software Design Principles
+Requirements Engineering is the process of identifying, eliciting, analysing, specifying, validating, and managing the needs and expectations of stakeholders for a software system.
+1. Feasibility Study
+The feasibility study mainly concentrates on below five mentioned areas below. Among these Economic Feasibility Study is the most important part of the feasibility analysis and the Legal Feasibility Study is less considered feasibility analysis. 
+Technical Feasibility
+Operational Feasibility
+2. Requirements Elicitation
+Requirements elicitation is the process of gathering information about the needs and expectations of stakeholders for a software system. This is the first step in the requirements engineering process and it is critical to the success of the software development project. 
+Several techniques can be used to elicit requirements, including:
+Interviews: These are one-on-one conversations with stakeholders to gather information about their needs and expectations.
+Surveys: These are questionnaires that are distributed to stakeholders to gather information about their needs and expectations.
+Focus Groups: These are small groups of stakeholders who are brought together to discuss their needs and expectations for the software system.
+Observation: This technique involves observing the stakeholders in their work environment to gather information about their needs and expectations.
+Prototyping: This technique involves creating a working model of the software system, which can be used to gather feedback from stakeholders and to validate requirements.
+3. Requirements Specification
+Requirements specification is the process of documenting the requirements identified in the analysis step in a clear, consistent, and unambiguous manner. This step also involves prioritizing and grouping the requirements into manageable chunks.
+During specification, more knowledge about the problem may be required which can again trigger the elicitation process. The models used at this stage include ER diagrams, data flow diagrams(DFDs), function decomposition diagrams(FDDs), data dictionaries, etc. 
+Several types of requirements are commonly specified in this step, including
+Functional Requirements, non-functional requirements, constraint, acceptance Criteria.
+4. Requirements Verification and Validation
+Requirements verification and validation (V&V) is the process of checking that the requirements for a software system are complete, consistent, and accurate and that they meet the needs and expectations of the stakeholders. 
+Verification is checking that the requirements are complete, consistent, and accurate. It involves reviewing the requirements to ensure that they are clear, testable, and free of errors and inconsistencies. This can include reviewing the requirements document, models, and diagrams, and holding meetings and walkthroughs with stakeholders.
+Validation is the process of checking that the requirements meet the needs and expectations of the stakeholders. It involves testing the requirements to ensure that they are valid and that the software system being developed will meet the needs of the stakeholders. This can include testing the software system through simulation, testing with prototypes, and testing with the final version of the software.
+Verification and Validation is an iterative process that occurs throughout the software development life cycle. It is important to involve stakeholders and the development team in the V&V process to ensure that the requirements are thoroughly reviewed and tested.
+5. Requirements Management
+Requirement management is the process of analyzing, documenting, tracking, prioritizing, and agreeing on the requirement and controlling the communication with relevant stakeholders.
+Several key activities are involved in requirements management, including:
+Tracking and controlling changes
+Version control.
+Traceability
+Communication
+Monitoring and reporting
+ Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems? Testing in Software Engineering:
+
+Modularity in software design is a technique where complex software is divided into smaller, independent modules, such as functions, classes, or components. It facilitates easier management and understanding of complex systems by breaking them down into digestible parts.
+Modularity can significantly enhance both maintenance and scalability of software. By dividing software into distinct modules, developers can manage, update, and scale parts of the application independently, leading to more efficient maintenance and easier scalability.
+Maintenance Efficiency: Isolating issues within specific modules simplifies debugging and updating processes.
+Scalability: Modular designs allow for adding, updating, or scaling specific modules without impacting the entire system.
+Adaptability: Modular systems can more readily adapt to changing requirements or technologies.
+Collaborative Development: Modularity supports concurrent development, where multiple teams can work on different modules simultaneously.
+Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development? Version Control Systems.
+Unit testing is a type of software testing that focuses on individual units or components of a software system. The purpose of unit testing is to validate that each unit of the software works as intended and meets the requirements. Developers typically perform unit testing, and it is performed early in the development process before the code is integrated and tested as a whole system.
+Integration testing is the process of testing the interface between two software units or modules. It focuses on determining the correctness of the interface. The purpose of integration testing is to expose faults in the interaction between integrated units. Once all the modules have been unit-tested, integration testing is performed.
+System testing is a type of software testing that evaluates the overall functionality and performance of a complete and fully integrated software solution. It tests if the system meets the specified requirements and if it is suitable for delivery to the end-users. This type of testing is performed after the integration testing and before the acceptance testing.
+Acceptance Testing is a method of software testing where a system is tested for acceptability. The major aim of this test is to evaluate the compliance of the system with the business requirements and assess whether it is acceptable for delivery or not.
+Advantages of software testing
+•	Customer Satisfaction
+•	Bug-Free Application
+•	Cost effectiveness
+•	Low failure b chances
+•	Security 
+•	Ease of recovery
+•	Early Defect Detection
+What are version systems, and why control are they important in software development? Give examples of popular version control systems and their features. Software Project Management.
+version control system
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+Benefits of the version control system
+Enhances the project development speed by providing efficient collaboration,
+Leverages the productivity, expedites product delivery, and skills of the employees through better communication and assistance,
+Reduce possibilities of errors and conflicts meanwhile project development through traceability to every small change,
+Employees or contributors of the project can contribute from anywhere irrespective of the different geographical locations through this VCS,
+For each different contributor to the project, a different working copy is maintained and not merged to the main file unless the working copy is validated. 
+Helps in recovery in case of any disaster or contingent situation,
+Informs us about Who, what, When, Why changes have been made
+Examples of VCS include Git, Helix core, Microsoft TFS,
+
+Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects? Software Maintenance.
+
+Roles of software project manager
+•	Managing people: 
+•	Acts as a project leader
+•	Communication with stakeholders
+•	Manages human resources.
+•	Managing project: 
+•	Monitors progress and performance
+•	Risk analysis at every phase.
+•	Manages time and budget constraint.
+•	Involves with the senior managers in the process of appointing team members.
+•	Builds the project team and assigns tasks to various team members.
+•	Responsible for effective project planning and scheduling, project monitoring and control activities in order to achieve the project objectives.
+•	Acts as a communicator between the senior management and the development team and internal and external stakeholders.
+•	Effectively resolves issues that arise between the team members by changing their roles and responsibilities.
+•	Modifies the project plan (if required) to deal with the situation.
+	
+Challenges faced in managing software projects.
+•	Competition	
+•	Scope estimation
+•	User requirements
+•	Technology stack
+•	Adapting to innovations
+Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle? Ethical Considerations in Software Engineering.
+Software Maintenance refers to the process of modifying and updating a software system after it has been delivered to the customer. It is a critical part of the software development life cycle (SDLC) and is necessary to ensure that the software continues to meet the needs of the users over time. This article focuses on discussing Software Maintenance in detail.
+Types of Software Maintenance
+1.	Corrective Maintenance: This involves fixing errors and bugs in the software system.
+2.	Patching: It is an emergency fix implemented mainly due to pressure from management. Patching is done for corrective maintenance but it gives rise to unforeseen future errors due to lack of proper impact analysis.
+3.	Adaptive Maintenance: This involves modifying the software system to adapt it to changes in the environment, such as changes in hardware or software, government policies, and business rules.
+4.	Perfective Maintenance: This involves improving functionality, performance, and reliability, and restructuring the software system to improve changeability.
+5.	Preventive Maintenance: This involves taking measures to prevent future problems, such as optimization, updating documentation, reviewing and testing the system, and implementing preventive measures such as backups.
+
+Software maintenance is also an important part of the Software Development Life Cycle(SDLC). To update the software application and do all modifications in software application so as to improve performance is the main focus of software maintenance. Software is a model that runs on the basis of the real world. so, whenever any change requires in the software that means the need for real-world changes wherever possible.
+
+Ethical Considerations in Software Engineering.
+•	Respecting User Privacy and Data Security 
+•	Mitigating Bias and Discrimination 
+•	Ensuring Accessibility and Inclusivity 
+•	Promoting Ethical Business Practices 
+What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work? 
+Ethical issues faced by software engineers.
+•	addictive design.
+•	corporate ownership of personal data.
+•	algorithmic bias.
+•	weak cyber security and personally identifiable information (PII) protection; and
+•	overemphasis on features.
+Ethical coding involves writing clean, well-documented code that is easy to maintain and understand. Engineers should also prioritise security measures, implementing robust authentication and encryption mechanisms to protect user data
+
+
+Reference(s):geeksforgeeks.com
+
+
+
+
+
